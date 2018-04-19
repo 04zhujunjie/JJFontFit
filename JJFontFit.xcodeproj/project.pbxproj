@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F24FB0E32086E01600DAE6CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB0E22086E01600DAE6CF /* AppDelegate.m */; };
+		F24FB0E62086E01600DAE6CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB0E52086E01600DAE6CF /* ViewController.m */; };
+		F24FB0E92086E01600DAE6CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24FB0E72086E01600DAE6CF /* Main.storyboard */; };
+		F24FB0EB2086E01600DAE6CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24FB0EA2086E01600DAE6CF /* Assets.xcassets */; };
+		F24FB0EE2086E01600DAE6CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24FB0EC2086E01600DAE6CF /* LaunchScreen.storyboard */; };
+		F24FB0F12086E01600DAE6CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB0F02086E01600DAE6CF /* main.m */; };
+		F24FB0FB2086E01700DAE6CF /* JJFontFitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB0FA2086E01700DAE6CF /* JJFontFitTests.m */; };
+		F24FB1062086E01700DAE6CF /* JJFontFitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB1052086E01700DAE6CF /* JJFontFitUITests.m */; };
+		F24FB1162086E02F00DAE6CF /* JJFontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB1152086E02F00DAE6CF /* JJFontFit.m */; };
+		F24FB11B2086E18C00DAE6CF /* JJHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB11A2086E18C00DAE6CF /* JJHomeController.m */; };
+		F24FB1222086E27E00DAE6CF /* JJExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB1212086E27E00DAE6CF /* JJExampleTableViewController.m */; };
+		F24FB1252086EBB900DAE6CF /* JJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB1242086EBB900DAE6CF /* JJLabel.m */; };
+		F24FB1282086EBCA00DAE6CF /* UIJJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB1272086EBCA00DAE6CF /* UIJJLabel.m */; };
+		F24FB12B2086EBE300DAE6CF /* _UIJJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB12A2086EBE300DAE6CF /* _UIJJLabel.m */; };
+		F24FB1322086EC4800DAE6CF /* JJButtton.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB1312086EC4800DAE6CF /* JJButtton.m */; };
+		F24FB1352086EC5C00DAE6CF /* UIJJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB1342086EC5C00DAE6CF /* UIJJButton.m */; };
+		F24FB1382086EC6F00DAE6CF /* _UIJJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB1372086EC6F00DAE6CF /* _UIJJButton.m */; };
+		F24FB13B2086ECA200DAE6CF /* JJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB13A2086ECA200DAE6CF /* JJTextField.m */; };
+		F24FB1442086ECDD00DAE6CF /* JJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB1432086ECDD00DAE6CF /* JJTextView.m */; };
+		F24FB14D2086F3FA00DAE6CF /* JJTextField_1.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB14C2086F3FA00DAE6CF /* JJTextField_1.m */; };
+		F24FB1502086F41100DAE6CF /* JJTextField_2.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB14F2086F41100DAE6CF /* JJTextField_2.m */; };
+		F24FB1532086F77C00DAE6CF /* UIJJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB1522086F77C00DAE6CF /* UIJJTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F24FB0F72086E01700DAE6CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24FB0D62086E01600DAE6CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24FB0DD2086E01600DAE6CF;
+			remoteInfo = JJFontFit;
+		};
+		F24FB1022086E01700DAE6CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24FB0D62086E01600DAE6CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24FB0DD2086E01600DAE6CF;
+			remoteInfo = JJFontFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F24FB0DE2086E01600DAE6CF /* JJFontFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJFontFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24FB0E12086E01600DAE6CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F24FB0E22086E01600DAE6CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F24FB0E42086E01600DAE6CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F24FB0E52086E01600DAE6CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F24FB0E82086E01600DAE6CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F24FB0EA2086E01600DAE6CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F24FB0ED2086E01600DAE6CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F24FB0EF2086E01600DAE6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24FB0F02086E01600DAE6CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F24FB0F62086E01700DAE6CF /* JJFontFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJFontFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24FB0FA2086E01700DAE6CF /* JJFontFitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJFontFitTests.m; sourceTree = "<group>"; };
+		F24FB0FC2086E01700DAE6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24FB1012086E01700DAE6CF /* JJFontFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJFontFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24FB1052086E01700DAE6CF /* JJFontFitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJFontFitUITests.m; sourceTree = "<group>"; };
+		F24FB1072086E01700DAE6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24FB1142086E02F00DAE6CF /* JJFontFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJFontFit.h; sourceTree = "<group>"; };
+		F24FB1152086E02F00DAE6CF /* JJFontFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJFontFit.m; sourceTree = "<group>"; };
+		F24FB1192086E18C00DAE6CF /* JJHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJHomeController.h; sourceTree = "<group>"; };
+		F24FB11A2086E18C00DAE6CF /* JJHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJHomeController.m; sourceTree = "<group>"; };
+		F24FB1202086E27E00DAE6CF /* JJExampleTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJExampleTableViewController.h; sourceTree = "<group>"; };
+		F24FB1212086E27E00DAE6CF /* JJExampleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJExampleTableViewController.m; sourceTree = "<group>"; };
+		F24FB1232086EBB900DAE6CF /* JJLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJLabel.h; sourceTree = "<group>"; };
+		F24FB1242086EBB900DAE6CF /* JJLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJLabel.m; sourceTree = "<group>"; };
+		F24FB1262086EBCA00DAE6CF /* UIJJLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIJJLabel.h; sourceTree = "<group>"; };
+		F24FB1272086EBCA00DAE6CF /* UIJJLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIJJLabel.m; sourceTree = "<group>"; };
+		F24FB1292086EBE300DAE6CF /* _UIJJLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _UIJJLabel.h; sourceTree = "<group>"; };
+		F24FB12A2086EBE300DAE6CF /* _UIJJLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _UIJJLabel.m; sourceTree = "<group>"; };
+		F24FB1302086EC4800DAE6CF /* JJButtton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJButtton.h; sourceTree = "<group>"; };
+		F24FB1312086EC4800DAE6CF /* JJButtton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJButtton.m; sourceTree = "<group>"; };
+		F24FB1332086EC5C00DAE6CF /* UIJJButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIJJButton.h; sourceTree = "<group>"; };
+		F24FB1342086EC5C00DAE6CF /* UIJJButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIJJButton.m; sourceTree = "<group>"; };
+		F24FB1362086EC6F00DAE6CF /* _UIJJButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _UIJJButton.h; sourceTree = "<group>"; };
+		F24FB1372086EC6F00DAE6CF /* _UIJJButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _UIJJButton.m; sourceTree = "<group>"; };
+		F24FB1392086ECA200DAE6CF /* JJTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTextField.h; sourceTree = "<group>"; };
+		F24FB13A2086ECA200DAE6CF /* JJTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTextField.m; sourceTree = "<group>"; };
+		F24FB1422086ECDD00DAE6CF /* JJTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTextView.h; sourceTree = "<group>"; };
+		F24FB1432086ECDD00DAE6CF /* JJTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTextView.m; sourceTree = "<group>"; };
+		F24FB14B2086F3FA00DAE6CF /* JJTextField_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTextField_1.h; sourceTree = "<group>"; };
+		F24FB14C2086F3FA00DAE6CF /* JJTextField_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTextField_1.m; sourceTree = "<group>"; };
+		F24FB14E2086F41100DAE6CF /* JJTextField_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTextField_2.h; sourceTree = "<group>"; };
+		F24FB14F2086F41100DAE6CF /* JJTextField_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTextField_2.m; sourceTree = "<group>"; };
+		F24FB1512086F77C00DAE6CF /* UIJJTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIJJTextView.h; sourceTree = "<group>"; };
+		F24FB1522086F77C00DAE6CF /* UIJJTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIJJTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F24FB0DB2086E01600DAE6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24FB0F32086E01700DAE6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24FB0FE2086E01700DAE6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F24FB0D52086E01600DAE6CF = {
+			isa = PBXGroup;
+			children = (
+				F24FB0E02086E01600DAE6CF /* JJFontFit */,
+				F24FB0F92086E01700DAE6CF /* JJFontFitTests */,
+				F24FB1042086E01700DAE6CF /* JJFontFitUITests */,
+				F24FB0DF2086E01600DAE6CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F24FB0DF2086E01600DAE6CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F24FB0DE2086E01600DAE6CF /* JJFontFit.app */,
+				F24FB0F62086E01700DAE6CF /* JJFontFitTests.xctest */,
+				F24FB1012086E01700DAE6CF /* JJFontFitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F24FB0E02086E01600DAE6CF /* JJFontFit */ = {
+			isa = PBXGroup;
+			children = (
+				F24FB1132086E02F00DAE6CF /* JJFontFit */,
+				F24FB1182086E15B00DAE6CF /* Home */,
+				F24FB11C2086E20900DAE6CF /* Example */,
+				F24FB0E12086E01600DAE6CF /* AppDelegate.h */,
+				F24FB0E22086E01600DAE6CF /* AppDelegate.m */,
+				F24FB0E42086E01600DAE6CF /* ViewController.h */,
+				F24FB0E52086E01600DAE6CF /* ViewController.m */,
+				F24FB0E72086E01600DAE6CF /* Main.storyboard */,
+				F24FB0EA2086E01600DAE6CF /* Assets.xcassets */,
+				F24FB0EC2086E01600DAE6CF /* LaunchScreen.storyboard */,
+				F24FB0EF2086E01600DAE6CF /* Info.plist */,
+				F24FB0F02086E01600DAE6CF /* main.m */,
+			);
+			path = JJFontFit;
+			sourceTree = "<group>";
+		};
+		F24FB0F92086E01700DAE6CF /* JJFontFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				F24FB0FA2086E01700DAE6CF /* JJFontFitTests.m */,
+				F24FB0FC2086E01700DAE6CF /* Info.plist */,
+			);
+			path = JJFontFitTests;
+			sourceTree = "<group>";
+		};
+		F24FB1042086E01700DAE6CF /* JJFontFitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F24FB1052086E01700DAE6CF /* JJFontFitUITests.m */,
+				F24FB1072086E01700DAE6CF /* Info.plist */,
+			);
+			path = JJFontFitUITests;
+			sourceTree = "<group>";
+		};
+		F24FB1132086E02F00DAE6CF /* JJFontFit */ = {
+			isa = PBXGroup;
+			children = (
+				F24FB1142086E02F00DAE6CF /* JJFontFit.h */,
+				F24FB1152086E02F00DAE6CF /* JJFontFit.m */,
+			);
+			path = JJFontFit;
+			sourceTree = "<group>";
+		};
+		F24FB1182086E15B00DAE6CF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F24FB1192086E18C00DAE6CF /* JJHomeController.h */,
+				F24FB11A2086E18C00DAE6CF /* JJHomeController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F24FB11C2086E20900DAE6CF /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				F24FB1202086E27E00DAE6CF /* JJExampleTableViewController.h */,
+				F24FB1212086E27E00DAE6CF /* JJExampleTableViewController.m */,
+				F24FB12F2086EC2A00DAE6CF /* UITextView */,
+				F24FB12E2086EC1D00DAE6CF /* UITextField */,
+				F24FB12D2086EC1100DAE6CF /* UIButton */,
+				F24FB12C2086EBEF00DAE6CF /* UILabel */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		F24FB12C2086EBEF00DAE6CF /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				F24FB1232086EBB900DAE6CF /* JJLabel.h */,
+				F24FB1242086EBB900DAE6CF /* JJLabel.m */,
+				F24FB1262086EBCA00DAE6CF /* UIJJLabel.h */,
+				F24FB1272086EBCA00DAE6CF /* UIJJLabel.m */,
+				F24FB1292086EBE300DAE6CF /* _UIJJLabel.h */,
+				F24FB12A2086EBE300DAE6CF /* _UIJJLabel.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		F24FB12D2086EC1100DAE6CF /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				F24FB1302086EC4800DAE6CF /* JJButtton.h */,
+				F24FB1312086EC4800DAE6CF /* JJButtton.m */,
+				F24FB1332086EC5C00DAE6CF /* UIJJButton.h */,
+				F24FB1342086EC5C00DAE6CF /* UIJJButton.m */,
+				F24FB1362086EC6F00DAE6CF /* _UIJJButton.h */,
+				F24FB1372086EC6F00DAE6CF /* _UIJJButton.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		F24FB12E2086EC1D00DAE6CF /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				F24FB1392086ECA200DAE6CF /* JJTextField.h */,
+				F24FB13A2086ECA200DAE6CF /* JJTextField.m */,
+				F24FB14B2086F3FA00DAE6CF /* JJTextField_1.h */,
+				F24FB14C2086F3FA00DAE6CF /* JJTextField_1.m */,
+				F24FB14E2086F41100DAE6CF /* JJTextField_2.h */,
+				F24FB14F2086F41100DAE6CF /* JJTextField_2.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		F24FB12F2086EC2A00DAE6CF /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				F24FB1422086ECDD00DAE6CF /* JJTextView.h */,
+				F24FB1432086ECDD00DAE6CF /* JJTextView.m */,
+				F24FB1512086F77C00DAE6CF /* UIJJTextView.h */,
+				F24FB1522086F77C00DAE6CF /* UIJJTextView.m */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F24FB0DD2086E01600DAE6CF /* JJFontFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24FB10A2086E01700DAE6CF /* Build configuration list for PBXNativeTarget "JJFontFit" */;
+			buildPhases = (
+				F24FB0DA2086E01600DAE6CF /* Sources */,
+				F24FB0DB2086E01600DAE6CF /* Frameworks */,
+				F24FB0DC2086E01600DAE6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJFontFit;
+			productName = JJFontFit;
+			productReference = F24FB0DE2086E01600DAE6CF /* JJFontFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F24FB0F52086E01700DAE6CF /* JJFontFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24FB10D2086E01700DAE6CF /* Build configuration list for PBXNativeTarget "JJFontFitTests" */;
+			buildPhases = (
+				F24FB0F22086E01700DAE6CF /* Sources */,
+				F24FB0F32086E01700DAE6CF /* Frameworks */,
+				F24FB0F42086E01700DAE6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F24FB0F82086E01700DAE6CF /* PBXTargetDependency */,
+			);
+			name = JJFontFitTests;
+			productName = JJFontFitTests;
+			productReference = F24FB0F62086E01700DAE6CF /* JJFontFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F24FB1002086E01700DAE6CF /* JJFontFitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24FB1102086E01700DAE6CF /* Build configuration list for PBXNativeTarget "JJFontFitUITests" */;
+			buildPhases = (
+				F24FB0FD2086E01700DAE6CF /* Sources */,
+				F24FB0FE2086E01700DAE6CF /* Frameworks */,
+				F24FB0FF2086E01700DAE6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F24FB1032086E01700DAE6CF /* PBXTargetDependency */,
+			);
+			name = JJFontFitUITests;
+			productName = JJFontFitUITests;
+			productReference = F24FB1012086E01700DAE6CF /* JJFontFitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F24FB0D62086E01600DAE6CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = JMZiXun;
+				TargetAttributes = {
+					F24FB0DD2086E01600DAE6CF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F24FB0F52086E01700DAE6CF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F24FB0DD2086E01600DAE6CF;
+					};
+					F24FB1002086E01700DAE6CF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F24FB0DD2086E01600DAE6CF;
+					};
+				};
+			};
+			buildConfigurationList = F24FB0D92086E01600DAE6CF /* Build configuration list for PBXProject "JJFontFit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F24FB0D52086E01600DAE6CF;
+			productRefGroup = F24FB0DF2086E01600DAE6CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F24FB0DD2086E01600DAE6CF /* JJFontFit */,
+				F24FB0F52086E01700DAE6CF /* JJFontFitTests */,
+				F24FB1002086E01700DAE6CF /* JJFontFitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F24FB0DC2086E01600DAE6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24FB0EE2086E01600DAE6CF /* LaunchScreen.storyboard in Resources */,
+				F24FB0EB2086E01600DAE6CF /* Assets.xcassets in Resources */,
+				F24FB0E92086E01600DAE6CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24FB0F42086E01700DAE6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24FB0FF2086E01700DAE6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F24FB0DA2086E01600DAE6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24FB1282086EBCA00DAE6CF /* UIJJLabel.m in Sources */,
+				F24FB1222086E27E00DAE6CF /* JJExampleTableViewController.m in Sources */,
+				F24FB1162086E02F00DAE6CF /* JJFontFit.m in Sources */,
+				F24FB14D2086F3FA00DAE6CF /* JJTextField_1.m in Sources */,
+				F24FB1252086EBB900DAE6CF /* JJLabel.m in Sources */,
+				F24FB13B2086ECA200DAE6CF /* JJTextField.m in Sources */,
+				F24FB11B2086E18C00DAE6CF /* JJHomeController.m in Sources */,
+				F24FB0E62086E01600DAE6CF /* ViewController.m in Sources */,
+				F24FB1322086EC4800DAE6CF /* JJButtton.m in Sources */,
+				F24FB0F12086E01600DAE6CF /* main.m in Sources */,
+				F24FB1502086F41100DAE6CF /* JJTextField_2.m in Sources */,
+				F24FB1352086EC5C00DAE6CF /* UIJJButton.m in Sources */,
+				F24FB1442086ECDD00DAE6CF /* JJTextView.m in Sources */,
+				F24FB1382086EC6F00DAE6CF /* _UIJJButton.m in Sources */,
+				F24FB1532086F77C00DAE6CF /* UIJJTextView.m in Sources */,
+				F24FB0E32086E01600DAE6CF /* AppDelegate.m in Sources */,
+				F24FB12B2086EBE300DAE6CF /* _UIJJLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24FB0F22086E01700DAE6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24FB0FB2086E01700DAE6CF /* JJFontFitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24FB0FD2086E01700DAE6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24FB1062086E01700DAE6CF /* JJFontFitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F24FB0F82086E01700DAE6CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24FB0DD2086E01600DAE6CF /* JJFontFit */;
+			targetProxy = F24FB0F72086E01700DAE6CF /* PBXContainerItemProxy */;
+		};
+		F24FB1032086E01700DAE6CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24FB0DD2086E01600DAE6CF /* JJFontFit */;
+			targetProxy = F24FB1022086E01700DAE6CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F24FB0E72086E01600DAE6CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F24FB0E82086E01600DAE6CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F24FB0EC2086E01600DAE6CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F24FB0ED2086E01600DAE6CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F24FB1082086E01700DAE6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F24FB1092086E01700DAE6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F24FB10B2086E01700DAE6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KTN4GP2J8;
+				INFOPLIST_FILE = JJFontFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ym.JJFontFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F24FB10C2086E01700DAE6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KTN4GP2J8;
+				INFOPLIST_FILE = JJFontFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ym.JJFontFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F24FB10E2086E01700DAE6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KTN4GP2J8;
+				INFOPLIST_FILE = JJFontFitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ym.JJFontFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJFontFit.app/JJFontFit";
+			};
+			name = Debug;
+		};
+		F24FB10F2086E01700DAE6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KTN4GP2J8;
+				INFOPLIST_FILE = JJFontFitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ym.JJFontFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJFontFit.app/JJFontFit";
+			};
+			name = Release;
+		};
+		F24FB1112086E01700DAE6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KTN4GP2J8;
+				INFOPLIST_FILE = JJFontFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ym.JJFontFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJFontFit;
+			};
+			name = Debug;
+		};
+		F24FB1122086E01700DAE6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KTN4GP2J8;
+				INFOPLIST_FILE = JJFontFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ym.JJFontFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJFontFit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F24FB0D92086E01600DAE6CF /* Build configuration list for PBXProject "JJFontFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24FB1082086E01700DAE6CF /* Debug */,
+				F24FB1092086E01700DAE6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24FB10A2086E01700DAE6CF /* Build configuration list for PBXNativeTarget "JJFontFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24FB10B2086E01700DAE6CF /* Debug */,
+				F24FB10C2086E01700DAE6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24FB10D2086E01700DAE6CF /* Build configuration list for PBXNativeTarget "JJFontFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24FB10E2086E01700DAE6CF /* Debug */,
+				F24FB10F2086E01700DAE6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24FB1102086E01700DAE6CF /* Build configuration list for PBXNativeTarget "JJFontFitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24FB1112086E01700DAE6CF /* Debug */,
+				F24FB1122086E01700DAE6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F24FB0D62086E01600DAE6CF /* Project object */;
+}
