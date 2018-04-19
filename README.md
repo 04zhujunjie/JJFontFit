@@ -32,7 +32,7 @@ self.label.isNotFontFit = YES;
 ```
 6、在storyboard或xib上关闭某个对象文字适配，将Is Not Font Fit设置为On
 
-7、不分屏幕尺寸，统一修改字体大小 ，直接调用以下方法
-　```
+7、不分屏幕尺寸，统一修改字体大小 ，直接调用以下方法 
+```
 + (void)fontFitWithAddSize:(CGFloat)addSize;
 ```
