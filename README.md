@@ -36,3 +36,47 @@ self.label.isNotFontFit = YES;
 ```
 + (void)fontFitWithAddSize:(CGFloat)addSize;
 ```
+8、JJFontFit设置，一般是放在程序入口AppDelegate设置，如下：  
+```
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // Override point for customization after application launch.
+    [self setupFontFitWithNormal];
+    //[self setupFontFitWithCustom];
+    return YES;
+}
+
+//标准样式
+- (void)setupFontFitWithNormal{
+    //以4.7寸手机屏幕为基准
+    [JJFontFit fontFitWithNormalScreenWidth:375.0];
+    //设置支持自定义以“UI”，“_UI”开头的继承UILabel或UIButton类，它的子类也会支持适配
+    [JJFontFit addHasPrefixUIWithLabelClass:@[@"UIJJLabel",@"_UIJJLabel"] buttonClass:@[@"UIJJButton"]];
+    //关闭适配的类，它的子类也会被关闭
+    [JJFontFit closeFontFitWithClass:@[@"JJTextField_1"]];
+}
+
+//自定义样式
+- (void)setupFontFitWithCustom{
+    
+    CGFloat width = [UIScreen mainScreen].bounds.size.width;
+    if (width == 320) {//4.0寸手机
+        //在原来字体的大小上-2
+        [JJFontFit fontFitWithAddSize:-2];
+    }else if (width == 375){//4.7寸手机
+        //字体大小不变
+        [JJFontFit fontFitWithAddSize:0];
+    }else if(width == 414){//5.5寸手机
+         //在原来字体的大小上+2
+        [JJFontFit fontFitWithAddSize:2];
+    }else{
+        //字体大小不变
+        [JJFontFit fontFitWithAddSize:0];
+    }
+    
+    //设置支持自定义以“UI”，“_UI”开头的继承UILabel或UIButton类，它的子类也会支持适配
+    [JJFontFit addHasPrefixUIWithLabelClass:@[@"UIJJLabel",@"_UIJJLabel"] buttonClass:@[@"UIJJButton"]];
+    //关闭适配的类，它的子类也会被关闭
+    [JJFontFit closeFontFitWithClass:@[@"JJTextField_1"]];
+}
+
+```
