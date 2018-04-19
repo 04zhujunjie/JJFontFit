@@ -78,19 +78,11 @@ IB_DESIGNABLE
 + (void)addHasPrefixUIWithLabelClass:(NSArray<NSString *>*)labelClass buttonClass:(NSArray<NSString *>*)buttonClass;
 
 /**
- 关闭适配的类（可包括自定义的和原生的）
+ 关闭适配的类（包括自定义的和原生的）
 
  @param closeClass 类名
  */
 + (void)closeFontFitWithClass:(NSArray<NSString *>*)closeClass;
-
-@end
-
-@interface UITextField (JJFontFit)
-/*
- 默认是NO，表示允许文字字体根据屏幕适配大小，设置为YES时，禁止文字字体适配
- */
-@property (nonatomic ,assign) IBInspectable BOOL isNotFontFit;
 
 @end
 
@@ -110,6 +102,13 @@ IB_DESIGNABLE
 
 @end
 
+@interface UITextField (JJFontFit)
+/*
+ 默认是NO，表示允许文字字体根据屏幕适配大小，设置为YES时，禁止文字字体适配
+ */
+@property (nonatomic ,assign) IBInspectable BOOL isNotFontFit;
+
+@end
 
 @interface UITextView (JJFontFit)
 /*

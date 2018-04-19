@@ -24,7 +24,6 @@ typedef NS_ENUM(NSInteger,JJFontFitType){
 
 @interface JJFontFit()
 
-
 @property (nonatomic ,strong) NSArray<NSString *>* jj_labelClass;
 @property (nonatomic ,strong) NSArray<NSString *>* jj_buttonClass;
 @property (nonatomic ,assign) CGFloat jj_rate;
@@ -74,30 +73,6 @@ typedef NS_ENUM(NSInteger,JJFontFitType){
 
 + (CGFloat)fontFitWithSize:(CGFloat)size{
     return size*[JJFontFit shareFontFit].jj_rate;
-}
-
-+ (void)jj_updateFontWithView:(UIView *)view{
-    
-    switch ([JJFontFit shareFontFit].jj_fontFitType) {
-        case JJFontFitTypeNormal:
-        {
-            UIFont *font = [view valueForKey:@"font"];
-            [view setValue:[UIFont fontWithDescriptor:font.fontDescriptor size:font.pointSize*[JJFontFit shareFontFit].jj_rate] forKey:@"font"];
-        }
-            break;
-        case JJFontFitTypeCustom:
-        {
-            if (![JJFontFit shareFontFit].jj_addSize) {
-                return;
-            }
-            UIFont *font = [view valueForKey:@"font"];
-             [view setValue:[UIFont fontWithDescriptor:font.fontDescriptor size:font.pointSize+[JJFontFit shareFontFit].jj_addSize] forKey:@"font"];
-        }
-            break;
-            
-        default:
-            break;
-    }
 }
 
 + (UIFont *)fontFitWithSystemFontOfSize:(CGFloat)size{
@@ -183,6 +158,31 @@ typedef NS_ENUM(NSInteger,JJFontFitType){
 
 - (void)jj_updateFont{
     
+    UIFont *font = [self valueForKey:@"font"];
+    //存储旧的font
+    self.jj_originalFont = font;
+    JJFontFit *fontFit = [JJFontFit shareFontFit];
+    switch (fontFit.jj_fontFitType) {
+            case JJFontFitTypeNormal:
+            {
+                if (fontFit.jj_rate == 1) {
+                    return;
+                }
+                [self setValue:[UIFont fontWithDescriptor:font.fontDescriptor size:font.pointSize*fontFit.jj_rate] forKey:@"font"];
+            }
+                break;
+            case JJFontFitTypeCustom:
+            {
+                if (!fontFit.jj_addSize) {
+                    return;
+                }
+                [self setValue:[UIFont fontWithDescriptor:font.fontDescriptor size:font.pointSize+fontFit.jj_addSize] forKey:@"font"];
+            }
+                break;
+    
+            default:
+                break;
+        }
 }
 
 
@@ -284,7 +284,7 @@ JJ_LOAD(^{
 
                     //说明是UIButton的Label
                 if ([selfClassString isEqualToString:@"UIButtonLabel"]&&[newSuperview isKindOfClass:[UIButton class]]) {
-                    if ([self jj_isCloseFontFit]) {
+                    if ([newSuperview jj_isCloseFontFit]) {
                         return;
                     }
                     
@@ -306,7 +306,7 @@ JJ_LOAD(^{
                                 }
                                 
                             }
-                    }else{
+                    }else{//说明是自定义的UIButton
                         [self jj_updateMoveToSuperviewFont];
                         return;
                     }
@@ -332,13 +332,6 @@ JJ_LOAD(^{
 - (void)jj_setLabelFont:(UIFont *)font{
     [self jj_setLabelFont:font];
     [self jj_setupFont];
-}
-
-- (void)jj_updateFont{
-    
-    //存储旧的font
-    self.jj_originalFont = self.font;
-    [JJFontFit jj_updateFontWithView:self];
 }
 
 - (void)setIsNotFontFit:(BOOL)isNotFontFit{
@@ -368,7 +361,6 @@ JJ_LOAD(^{
 
 @end
 
-
 @implementation UITextView (JJFontFit)
 JJ_LOAD(^{
      [self jj_exchangeIMP];
@@ -378,13 +370,6 @@ JJ_LOAD(^{
 - (void)jj_setTextViewFont:(UIFont *)font{
     [self jj_setTextViewFont:font];
     [self jj_setupFont];
-}
-
-- (void)jj_updateFont{
-    //存储旧的font
-    self.jj_originalFont = self.font;
-//    self.font = [UIFont fontWithDescriptor:self.font.fontDescriptor size:self.font.pointSize*self.fontFitRate];
-    [JJFontFit jj_updateFontWithView:self];
 }
 
 - (void)setIsNotFontFit:(BOOL)isNotFontFit{
@@ -414,12 +399,6 @@ JJ_LOAD(^{
     [self jj_setupFont];
 }
 
-- (void)jj_updateFont{
-    //存储旧的font
-    self.jj_originalFont = self.font;
-    [JJFontFit jj_updateFontWithView:self];
-}
-
 - (void)setIsNotFontFit:(BOOL)isNotFontFit{
     self.jj_isFontFit = isNotFontFit;
     objc_setAssociatedObject(self, @selector(isNotFontFit), @(isNotFontFit), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
@@ -431,7 +410,5 @@ JJ_LOAD(^{
 - (BOOL)isNotFontFit{
     return  [objc_getAssociatedObject(self, _cmd) boolValue];
 }
-
-
 
 @end

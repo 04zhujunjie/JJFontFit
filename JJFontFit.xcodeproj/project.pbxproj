@@ -30,6 +30,9 @@
 		F24FB1502086F41100DAE6CF /* JJTextField_2.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB14F2086F41100DAE6CF /* JJTextField_2.m */; };
 		F24FB1532086F77C00DAE6CF /* UIJJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB1522086F77C00DAE6CF /* UIJJTextView.m */; };
 		F24FB157208873B500DAE6CF /* 銳字雲字庫彩雲繁.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F24FB156208873B500DAE6CF /* 銳字雲字庫彩雲繁.ttf */; };
+		F24FB15B2088934500DAE6CF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F24FB1582088934400DAE6CF /* README.md */; };
+		F24FB15C2088934500DAE6CF /* JJFontFit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F24FB1592088934400DAE6CF /* JJFontFit.podspec */; };
+		F24FB15D2088934500DAE6CF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F24FB15A2088934400DAE6CF /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +98,9 @@
 		F24FB1512086F77C00DAE6CF /* UIJJTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIJJTextView.h; sourceTree = "<group>"; };
 		F24FB1522086F77C00DAE6CF /* UIJJTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIJJTextView.m; sourceTree = "<group>"; };
 		F24FB156208873B500DAE6CF /* 銳字雲字庫彩雲繁.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "銳字雲字庫彩雲繁.ttf"; sourceTree = "<group>"; };
+		F24FB1582088934400DAE6CF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		F24FB1592088934400DAE6CF /* JJFontFit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JJFontFit.podspec; sourceTree = SOURCE_ROOT; };
+		F24FB15A2088934400DAE6CF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +163,9 @@
 				F24FB0EC2086E01600DAE6CF /* LaunchScreen.storyboard */,
 				F24FB0EF2086E01600DAE6CF /* Info.plist */,
 				F24FB156208873B500DAE6CF /* 銳字雲字庫彩雲繁.ttf */,
+				F24FB1592088934400DAE6CF /* JJFontFit.podspec */,
+				F24FB15A2088934400DAE6CF /* LICENSE */,
+				F24FB1582088934400DAE6CF /* README.md */,
 				F24FB0F02086E01600DAE6CF /* main.m */,
 			);
 			path = JJFontFit;
@@ -369,8 +378,11 @@
 			files = (
 				F24FB0EE2086E01600DAE6CF /* LaunchScreen.storyboard in Resources */,
 				F24FB0EB2086E01600DAE6CF /* Assets.xcassets in Resources */,
+				F24FB15B2088934500DAE6CF /* README.md in Resources */,
+				F24FB15D2088934500DAE6CF /* LICENSE in Resources */,
 				F24FB0E92086E01600DAE6CF /* Main.storyboard in Resources */,
 				F24FB157208873B500DAE6CF /* 銳字雲字庫彩雲繁.ttf in Resources */,
+				F24FB15C2088934500DAE6CF /* JJFontFit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
