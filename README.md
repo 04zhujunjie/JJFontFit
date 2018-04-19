@@ -1,8 +1,8 @@
 # JJFontFit 
 ![image](https://github.com/04zhujunjie/JJFontFit/blob/master/Screenshot/JJFontFit.gif) 
 ## 特点：  
-1、全自动化，不需要手动一个一个适配。  
-2、有两种适配样式:  
+1、全自动化，支持自定义字体，不需要手动一个一个适配。
+2、有两种适配样式:  
               1）、标准样式：根据屏幕比例自动适配。     
               2）、自定义样式 ：用户可以根据屏幕来设置每个屏幕统一字体。    
 3、支持UILabel，UIButton，UITextField,UITextView类以及自定义的继承类。    
@@ -35,6 +35,7 @@ self.label.isNotFontFit = YES;
 ```
 6、在storyboard或xib上关闭某个对象文字适配，将Is Not Font Fit设置为On  
 ![image](https://github.com/04zhujunjie/JJFontFit/blob/master/Screenshot/storyboard_screen.png) 
+
 7、不分屏幕尺寸，统一修改字体大小 ，直接调用以下方法 
 ```
 + (void)fontFitWithAddSize:(CGFloat)addSize;
