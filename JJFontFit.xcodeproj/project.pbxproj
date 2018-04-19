@@ -29,6 +29,7 @@
 		F24FB14D2086F3FA00DAE6CF /* JJTextField_1.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB14C2086F3FA00DAE6CF /* JJTextField_1.m */; };
 		F24FB1502086F41100DAE6CF /* JJTextField_2.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB14F2086F41100DAE6CF /* JJTextField_2.m */; };
 		F24FB1532086F77C00DAE6CF /* UIJJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB1522086F77C00DAE6CF /* UIJJTextView.m */; };
+		F24FB157208873B500DAE6CF /* 銳字雲字庫彩雲繁.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F24FB156208873B500DAE6CF /* 銳字雲字庫彩雲繁.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		F24FB14F2086F41100DAE6CF /* JJTextField_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTextField_2.m; sourceTree = "<group>"; };
 		F24FB1512086F77C00DAE6CF /* UIJJTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIJJTextView.h; sourceTree = "<group>"; };
 		F24FB1522086F77C00DAE6CF /* UIJJTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIJJTextView.m; sourceTree = "<group>"; };
+		F24FB156208873B500DAE6CF /* 銳字雲字庫彩雲繁.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "銳字雲字庫彩雲繁.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				F24FB0EA2086E01600DAE6CF /* Assets.xcassets */,
 				F24FB0EC2086E01600DAE6CF /* LaunchScreen.storyboard */,
 				F24FB0EF2086E01600DAE6CF /* Info.plist */,
+				F24FB156208873B500DAE6CF /* 銳字雲字庫彩雲繁.ttf */,
 				F24FB0F02086E01600DAE6CF /* main.m */,
 			);
 			path = JJFontFit;
@@ -367,6 +370,7 @@
 				F24FB0EE2086E01600DAE6CF /* LaunchScreen.storyboard in Resources */,
 				F24FB0EB2086E01600DAE6CF /* Assets.xcassets in Resources */,
 				F24FB0E92086E01600DAE6CF /* Main.storyboard in Resources */,
+				F24FB157208873B500DAE6CF /* 銳字雲字庫彩雲繁.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

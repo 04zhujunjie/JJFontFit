@@ -10,6 +10,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="銳字雲字庫彩雲繁.ttf">
+            <string>Reeji-CloudCaiYun-T-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--首页-->
         <scene sceneID="tne-QT-ifu">
@@ -91,7 +96,7 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JJLabel 类" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSf-N5-QEe" customClass="JJLabel">
                                                     <rect key="frame" x="26" y="11" width="323" height="43"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Reeji-CloudCaiYun-T-Regular" family="Reeji-CloudCaiYun-T" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>

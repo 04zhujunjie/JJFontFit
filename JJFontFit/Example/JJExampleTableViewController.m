@@ -9,8 +9,10 @@
 #import "JJExampleTableViewController.h"
 #import "JJFontFit.h"
 #import "_UIJJLabel.h"
+#import "JJLabel.h"
 @interface JJExampleTableViewController ()
 @property (weak, nonatomic) IBOutlet _UIJJLabel *jj_UIJJLabel;
+
 
 @end
 

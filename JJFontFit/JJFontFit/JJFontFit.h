@@ -11,7 +11,6 @@
 IB_DESIGNABLE
 @interface JJFontFit : NSObject
 
-
 /**
  仅用于在“标准样式”下测试
 
@@ -27,7 +26,7 @@ IB_DESIGNABLE
  */
 + (void)fontFitWithNormalScreenWidth:(CGFloat)width;
 /**
- 调用该方法，说明你要在原来字体上追加字体大小来进行适配。一般在AppDelegate调用
+ “自定义样式”时要调用该方法，说明你要在原来字体上追加字体大小来进行适配。一般在AppDelegate调用
  一般在外部根据屏幕尺寸传入不同的addSize来适配，传入的addSize=0时，
  说明那个屏幕尺寸就作为适配标准
  @param addSize 追加大小

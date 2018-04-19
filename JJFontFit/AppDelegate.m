@@ -20,6 +20,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [self setupFontFit];
+    [self setupFontFitWithCustom];
+    [self setupFontFitWithNormal];
     return YES;
 }
 
