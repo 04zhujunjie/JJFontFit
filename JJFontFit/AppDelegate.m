@@ -7,9 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "JJHomeController.h"
 #import "JJFontFit.h"
-#import "JJExampleTableViewController.h"
 @interface AppDelegate ()
 
 @end

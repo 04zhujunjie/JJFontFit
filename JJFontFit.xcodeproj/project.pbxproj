@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F219AC182089C277001B7E3F /* JJHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F219AC172089C277001B7E3F /* JJHomeController.m */; };
+		F219AC1C2089CAE1001B7E3F /* JJFontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = F219AC1B2089CAE1001B7E3F /* JJFontFit.m */; };
 		F24FB0E32086E01600DAE6CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB0E22086E01600DAE6CF /* AppDelegate.m */; };
 		F24FB0E62086E01600DAE6CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB0E52086E01600DAE6CF /* ViewController.m */; };
 		F24FB0E92086E01600DAE6CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24FB0E72086E01600DAE6CF /* Main.storyboard */; };
@@ -15,8 +17,6 @@
 		F24FB0F12086E01600DAE6CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB0F02086E01600DAE6CF /* main.m */; };
 		F24FB0FB2086E01700DAE6CF /* JJFontFitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB0FA2086E01700DAE6CF /* JJFontFitTests.m */; };
 		F24FB1062086E01700DAE6CF /* JJFontFitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB1052086E01700DAE6CF /* JJFontFitUITests.m */; };
-		F24FB1162086E02F00DAE6CF /* JJFontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB1152086E02F00DAE6CF /* JJFontFit.m */; };
-		F24FB11B2086E18C00DAE6CF /* JJHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB11A2086E18C00DAE6CF /* JJHomeController.m */; };
 		F24FB1222086E27E00DAE6CF /* JJExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB1212086E27E00DAE6CF /* JJExampleTableViewController.m */; };
 		F24FB1252086EBB900DAE6CF /* JJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB1242086EBB900DAE6CF /* JJLabel.m */; };
 		F24FB1282086EBCA00DAE6CF /* UIJJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FB1272086EBCA00DAE6CF /* UIJJLabel.m */; };
@@ -53,6 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F219AC162089C277001B7E3F /* JJHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJHomeController.h; sourceTree = "<group>"; };
+		F219AC172089C277001B7E3F /* JJHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJHomeController.m; sourceTree = "<group>"; };
+		F219AC1A2089CAE1001B7E3F /* JJFontFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJFontFit.h; sourceTree = "<group>"; };
+		F219AC1B2089CAE1001B7E3F /* JJFontFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJFontFit.m; sourceTree = "<group>"; };
 		F24FB0DE2086E01600DAE6CF /* JJFontFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJFontFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24FB0E12086E01600DAE6CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F24FB0E22086E01600DAE6CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,10 +73,6 @@
 		F24FB1012086E01700DAE6CF /* JJFontFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJFontFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24FB1052086E01700DAE6CF /* JJFontFitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJFontFitUITests.m; sourceTree = "<group>"; };
 		F24FB1072086E01700DAE6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F24FB1142086E02F00DAE6CF /* JJFontFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJFontFit.h; sourceTree = "<group>"; };
-		F24FB1152086E02F00DAE6CF /* JJFontFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJFontFit.m; sourceTree = "<group>"; };
-		F24FB1192086E18C00DAE6CF /* JJHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJHomeController.h; sourceTree = "<group>"; };
-		F24FB11A2086E18C00DAE6CF /* JJHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJHomeController.m; sourceTree = "<group>"; };
 		F24FB1202086E27E00DAE6CF /* JJExampleTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJExampleTableViewController.h; sourceTree = "<group>"; };
 		F24FB1212086E27E00DAE6CF /* JJExampleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJExampleTableViewController.m; sourceTree = "<group>"; };
 		F24FB1232086EBB900DAE6CF /* JJLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJLabel.h; sourceTree = "<group>"; };
@@ -128,6 +128,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F219AC152089C277001B7E3F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F219AC162089C277001B7E3F /* JJHomeController.h */,
+				F219AC172089C277001B7E3F /* JJHomeController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F219AC192089CAE1001B7E3F /* JJFontFit */ = {
+			isa = PBXGroup;
+			children = (
+				F219AC1A2089CAE1001B7E3F /* JJFontFit.h */,
+				F219AC1B2089CAE1001B7E3F /* JJFontFit.m */,
+			);
+			path = JJFontFit;
+			sourceTree = "<group>";
+		};
 		F24FB0D52086E01600DAE6CF = {
 			isa = PBXGroup;
 			children = (
@@ -151,8 +169,8 @@
 		F24FB0E02086E01600DAE6CF /* JJFontFit */ = {
 			isa = PBXGroup;
 			children = (
-				F24FB1132086E02F00DAE6CF /* JJFontFit */,
-				F24FB1182086E15B00DAE6CF /* Home */,
+				F219AC192089CAE1001B7E3F /* JJFontFit */,
+				F219AC152089C277001B7E3F /* Home */,
 				F24FB11C2086E20900DAE6CF /* Example */,
 				F24FB0E12086E01600DAE6CF /* AppDelegate.h */,
 				F24FB0E22086E01600DAE6CF /* AppDelegate.m */,
@@ -187,24 +205,6 @@
 				F24FB1072086E01700DAE6CF /* Info.plist */,
 			);
 			path = JJFontFitUITests;
-			sourceTree = "<group>";
-		};
-		F24FB1132086E02F00DAE6CF /* JJFontFit */ = {
-			isa = PBXGroup;
-			children = (
-				F24FB1142086E02F00DAE6CF /* JJFontFit.h */,
-				F24FB1152086E02F00DAE6CF /* JJFontFit.m */,
-			);
-			path = JJFontFit;
-			sourceTree = "<group>";
-		};
-		F24FB1182086E15B00DAE6CF /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				F24FB1192086E18C00DAE6CF /* JJHomeController.h */,
-				F24FB11A2086E18C00DAE6CF /* JJHomeController.m */,
-			);
-			path = Home;
 			sourceTree = "<group>";
 		};
 		F24FB11C2086E20900DAE6CF /* Example */ = {
@@ -409,12 +409,11 @@
 			files = (
 				F24FB1282086EBCA00DAE6CF /* UIJJLabel.m in Sources */,
 				F24FB1222086E27E00DAE6CF /* JJExampleTableViewController.m in Sources */,
-				F24FB1162086E02F00DAE6CF /* JJFontFit.m in Sources */,
 				F24FB14D2086F3FA00DAE6CF /* JJTextField_1.m in Sources */,
 				F24FB1252086EBB900DAE6CF /* JJLabel.m in Sources */,
 				F24FB13B2086ECA200DAE6CF /* JJTextField.m in Sources */,
-				F24FB11B2086E18C00DAE6CF /* JJHomeController.m in Sources */,
 				F24FB0E62086E01600DAE6CF /* ViewController.m in Sources */,
+				F219AC182089C277001B7E3F /* JJHomeController.m in Sources */,
 				F24FB1322086EC4800DAE6CF /* JJButtton.m in Sources */,
 				F24FB0F12086E01600DAE6CF /* main.m in Sources */,
 				F24FB1502086F41100DAE6CF /* JJTextField_2.m in Sources */,
@@ -423,6 +422,7 @@
 				F24FB1382086EC6F00DAE6CF /* _UIJJButton.m in Sources */,
 				F24FB1532086F77C00DAE6CF /* UIJJTextView.m in Sources */,
 				F24FB0E32086E01600DAE6CF /* AppDelegate.m in Sources */,
+				F219AC1C2089CAE1001B7E3F /* JJFontFit.m in Sources */,
 				F24FB12B2086EBE300DAE6CF /* _UIJJLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
