@@ -1,6 +1,8 @@
 # JJFontFit 
 ![image](https://github.com/04zhujunjie/JJFontFit/blob/master/Screenshot/JJFontFit.gif) 
-## 特点：  
+## 支持pod导入
+pod 'JJFontFit', '~> 1.0.0'     
+## 特点：  
 1、全自动化，支持自定义字体，不需要手动一个一个适配。     
 2、有两种适配样式: 1）、标准样式：根据屏幕比例自动适配。2）、自定义样式 ：用户可以根据屏幕来设置每个屏幕统一字体。        
 3、支持UILabel，UIButton，UITextField,UITextView类以及自定义的继承类。    
