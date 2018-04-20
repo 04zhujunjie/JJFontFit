@@ -10,4 +10,6 @@ s.source       = {:git => 'https://github.com/04zhujunjie/JJFontFit.git', :tag =
 s.source_files = 'JJFontFit/*.{h,m}'
 s.public_header_files = 'JJFontFit/*.h'
 s.requires_arc = true
+s.frameworks =
+"Foundation","UIKit"
 end

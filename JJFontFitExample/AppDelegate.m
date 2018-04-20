@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  JJFontFit
+//  JJFontFitExample
 //
-//  Created by JMZiXun on 2018/4/18.
+//  Created by JMZiXun on 2018/4/20.
 //  Copyright © 2018年 JMZiXun. All rights reserved.
 //
 
@@ -18,11 +18,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [self setupFontFit];
-//    [self setupFontFitWithCustom];
-//    [self setupFontFitWithNormal];
+    //    [self setupFontFitWithCustom];
+    //    [self setupFontFitWithNormal];
     return YES;
 }
-
 - (void)setupFontFit{
     
     //设置支持自定义以“UI”，“_UI”开头的继承UILabel或UIButton类
@@ -52,7 +51,7 @@
         //字体大小不变
         [JJFontFit fontFitWithAddSize:0];
     }else if(width == 414){//5.5寸手机
-         //在原来字体的大小上+2
+        //在原来字体的大小上+2
         [JJFontFit fontFitWithAddSize:2];
     }else{
         //字体大小不变

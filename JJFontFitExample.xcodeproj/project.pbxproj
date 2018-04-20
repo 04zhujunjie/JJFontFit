@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F22FAC7C2089D59C00270804 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FAC7B2089D59C00270804 /* AppDelegate.m */; };
+		F22FAC7F2089D59C00270804 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FAC7E2089D59C00270804 /* ViewController.m */; };
+		F22FAC842089D59C00270804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22FAC832089D59C00270804 /* Assets.xcassets */; };
+		F22FAC872089D59C00270804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22FAC852089D59C00270804 /* LaunchScreen.storyboard */; };
+		F22FAC8A2089D59C00270804 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FAC892089D59C00270804 /* main.m */; };
+		F22FAC942089D59C00270804 /* JJFontFitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FAC932089D59C00270804 /* JJFontFitExampleTests.m */; };
+		F22FAC9F2089D59C00270804 /* JJFontFitExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FAC9E2089D59C00270804 /* JJFontFitExampleUITests.m */; };
+		F22FACAF2089D5EB00270804 /* JJFontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FACAE2089D5EB00270804 /* JJFontFit.m */; };
+		F22FACD02089D60A00270804 /* JJExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FACB22089D60A00270804 /* JJExampleTableViewController.m */; };
+		F22FACD12089D60A00270804 /* _UIJJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FACB52089D60A00270804 /* _UIJJButton.m */; };
+		F22FACD22089D60A00270804 /* JJButtton.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FACB72089D60A00270804 /* JJButtton.m */; };
+		F22FACD32089D60A00270804 /* UIJJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FACB92089D60A00270804 /* UIJJButton.m */; };
+		F22FACD42089D60A00270804 /* _UIJJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FACBC2089D60A00270804 /* _UIJJLabel.m */; };
+		F22FACD52089D60A00270804 /* JJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FACBE2089D60A00270804 /* JJLabel.m */; };
+		F22FACD62089D60A00270804 /* UIJJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FACC02089D60A00270804 /* UIJJLabel.m */; };
+		F22FACD72089D60A00270804 /* JJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FACC32089D60A00270804 /* JJTextField.m */; };
+		F22FACD82089D60A00270804 /* JJTextField_1.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FACC52089D60A00270804 /* JJTextField_1.m */; };
+		F22FACD92089D60A00270804 /* JJTextField_2.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FACC72089D60A00270804 /* JJTextField_2.m */; };
+		F22FACDA2089D60A00270804 /* JJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FACCA2089D60A00270804 /* JJTextView.m */; };
+		F22FACDB2089D60A00270804 /* UIJJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FACCC2089D60A00270804 /* UIJJTextView.m */; };
+		F22FACDC2089D60A00270804 /* JJHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FACCF2089D60A00270804 /* JJHomeController.m */; };
+		F22FACDF2089D63500270804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22FACDE2089D63500270804 /* Main.storyboard */; };
+		F22FACE32089D8AF00270804 /* JJFontFit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F22FACE22089D8AF00270804 /* JJFontFit.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F22FAC902089D59C00270804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F22FAC6F2089D59C00270804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F22FAC762089D59C00270804;
+			remoteInfo = JJFontFitExample;
+		};
+		F22FAC9B2089D59C00270804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F22FAC6F2089D59C00270804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F22FAC762089D59C00270804;
+			remoteInfo = JJFontFitExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F22FAC772089D59C00270804 /* JJFontFitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJFontFitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22FAC7A2089D59C00270804 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F22FAC7B2089D59C00270804 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F22FAC7D2089D59C00270804 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F22FAC7E2089D59C00270804 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F22FAC832089D59C00270804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F22FAC862089D59C00270804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F22FAC882089D59C00270804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22FAC892089D59C00270804 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F22FAC8F2089D59C00270804 /* JJFontFitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJFontFitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22FAC932089D59C00270804 /* JJFontFitExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJFontFitExampleTests.m; sourceTree = "<group>"; };
+		F22FAC952089D59C00270804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22FAC9A2089D59C00270804 /* JJFontFitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJFontFitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22FAC9E2089D59C00270804 /* JJFontFitExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJFontFitExampleUITests.m; sourceTree = "<group>"; };
+		F22FACA02089D59C00270804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22FACAD2089D5EB00270804 /* JJFontFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJFontFit.h; sourceTree = "<group>"; };
+		F22FACAE2089D5EB00270804 /* JJFontFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJFontFit.m; sourceTree = "<group>"; };
+		F22FACB12089D60A00270804 /* JJExampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJExampleTableViewController.h; sourceTree = "<group>"; };
+		F22FACB22089D60A00270804 /* JJExampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJExampleTableViewController.m; sourceTree = "<group>"; };
+		F22FACB42089D60A00270804 /* _UIJJButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _UIJJButton.h; sourceTree = "<group>"; };
+		F22FACB52089D60A00270804 /* _UIJJButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _UIJJButton.m; sourceTree = "<group>"; };
+		F22FACB62089D60A00270804 /* JJButtton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJButtton.h; sourceTree = "<group>"; };
+		F22FACB72089D60A00270804 /* JJButtton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJButtton.m; sourceTree = "<group>"; };
+		F22FACB82089D60A00270804 /* UIJJButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIJJButton.h; sourceTree = "<group>"; };
+		F22FACB92089D60A00270804 /* UIJJButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIJJButton.m; sourceTree = "<group>"; };
+		F22FACBB2089D60A00270804 /* _UIJJLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _UIJJLabel.h; sourceTree = "<group>"; };
+		F22FACBC2089D60A00270804 /* _UIJJLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _UIJJLabel.m; sourceTree = "<group>"; };
+		F22FACBD2089D60A00270804 /* JJLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJLabel.h; sourceTree = "<group>"; };
+		F22FACBE2089D60A00270804 /* JJLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJLabel.m; sourceTree = "<group>"; };
+		F22FACBF2089D60A00270804 /* UIJJLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIJJLabel.h; sourceTree = "<group>"; };
+		F22FACC02089D60A00270804 /* UIJJLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIJJLabel.m; sourceTree = "<group>"; };
+		F22FACC22089D60A00270804 /* JJTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTextField.h; sourceTree = "<group>"; };
+		F22FACC32089D60A00270804 /* JJTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTextField.m; sourceTree = "<group>"; };
+		F22FACC42089D60A00270804 /* JJTextField_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTextField_1.h; sourceTree = "<group>"; };
+		F22FACC52089D60A00270804 /* JJTextField_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTextField_1.m; sourceTree = "<group>"; };
+		F22FACC62089D60A00270804 /* JJTextField_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTextField_2.h; sourceTree = "<group>"; };
+		F22FACC72089D60A00270804 /* JJTextField_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTextField_2.m; sourceTree = "<group>"; };
+		F22FACC92089D60A00270804 /* JJTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTextView.h; sourceTree = "<group>"; };
+		F22FACCA2089D60A00270804 /* JJTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTextView.m; sourceTree = "<group>"; };
+		F22FACCB2089D60A00270804 /* UIJJTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIJJTextView.h; sourceTree = "<group>"; };
+		F22FACCC2089D60A00270804 /* UIJJTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIJJTextView.m; sourceTree = "<group>"; };
+		F22FACCE2089D60A00270804 /* JJHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJHomeController.h; sourceTree = "<group>"; };
+		F22FACCF2089D60A00270804 /* JJHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJHomeController.m; sourceTree = "<group>"; };
+		F22FACDD2089D61800270804 /* 銳字雲字庫彩雲繁.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "銳字雲字庫彩雲繁.ttf"; sourceTree = "<group>"; };
+		F22FACDE2089D63500270804 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F22FACE22089D8AF00270804 /* JJFontFit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JJFontFit.podspec; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F22FAC742089D59C00270804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22FAC8C2089D59C00270804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22FAC972089D59C00270804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F22FAC6E2089D59C00270804 = {
+			isa = PBXGroup;
+			children = (
+				F22FAC792089D59C00270804 /* JJFontFitExample */,
+				F22FAC922089D59C00270804 /* JJFontFitExampleTests */,
+				F22FAC9D2089D59C00270804 /* JJFontFitExampleUITests */,
+				F22FAC782089D59C00270804 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F22FAC782089D59C00270804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F22FAC772089D59C00270804 /* JJFontFitExample.app */,
+				F22FAC8F2089D59C00270804 /* JJFontFitExampleTests.xctest */,
+				F22FAC9A2089D59C00270804 /* JJFontFitExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F22FAC792089D59C00270804 /* JJFontFitExample */ = {
+			isa = PBXGroup;
+			children = (
+				F22FACB02089D60A00270804 /* Example */,
+				F22FACCD2089D60A00270804 /* Home */,
+				F22FACAC2089D5EB00270804 /* JJFontFit */,
+				F22FAC7A2089D59C00270804 /* AppDelegate.h */,
+				F22FAC7B2089D59C00270804 /* AppDelegate.m */,
+				F22FAC7D2089D59C00270804 /* ViewController.h */,
+				F22FAC7E2089D59C00270804 /* ViewController.m */,
+				F22FACDE2089D63500270804 /* Main.storyboard */,
+				F22FAC832089D59C00270804 /* Assets.xcassets */,
+				F22FAC852089D59C00270804 /* LaunchScreen.storyboard */,
+				F22FAC882089D59C00270804 /* Info.plist */,
+				F22FACE22089D8AF00270804 /* JJFontFit.podspec */,
+				F22FACDD2089D61800270804 /* 銳字雲字庫彩雲繁.ttf */,
+				F22FAC892089D59C00270804 /* main.m */,
+			);
+			path = JJFontFitExample;
+			sourceTree = "<group>";
+		};
+		F22FAC922089D59C00270804 /* JJFontFitExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F22FAC932089D59C00270804 /* JJFontFitExampleTests.m */,
+				F22FAC952089D59C00270804 /* Info.plist */,
+			);
+			path = JJFontFitExampleTests;
+			sourceTree = "<group>";
+		};
+		F22FAC9D2089D59C00270804 /* JJFontFitExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F22FAC9E2089D59C00270804 /* JJFontFitExampleUITests.m */,
+				F22FACA02089D59C00270804 /* Info.plist */,
+			);
+			path = JJFontFitExampleUITests;
+			sourceTree = "<group>";
+		};
+		F22FACAC2089D5EB00270804 /* JJFontFit */ = {
+			isa = PBXGroup;
+			children = (
+				F22FACAD2089D5EB00270804 /* JJFontFit.h */,
+				F22FACAE2089D5EB00270804 /* JJFontFit.m */,
+			);
+			path = JJFontFit;
+			sourceTree = SOURCE_ROOT;
+		};
+		F22FACB02089D60A00270804 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				F22FACB12089D60A00270804 /* JJExampleTableViewController.h */,
+				F22FACB22089D60A00270804 /* JJExampleTableViewController.m */,
+				F22FACB32089D60A00270804 /* UIButton */,
+				F22FACBA2089D60A00270804 /* UILabel */,
+				F22FACC12089D60A00270804 /* UITextField */,
+				F22FACC82089D60A00270804 /* UITextView */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		F22FACB32089D60A00270804 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				F22FACB42089D60A00270804 /* _UIJJButton.h */,
+				F22FACB52089D60A00270804 /* _UIJJButton.m */,
+				F22FACB62089D60A00270804 /* JJButtton.h */,
+				F22FACB72089D60A00270804 /* JJButtton.m */,
+				F22FACB82089D60A00270804 /* UIJJButton.h */,
+				F22FACB92089D60A00270804 /* UIJJButton.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		F22FACBA2089D60A00270804 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				F22FACBB2089D60A00270804 /* _UIJJLabel.h */,
+				F22FACBC2089D60A00270804 /* _UIJJLabel.m */,
+				F22FACBD2089D60A00270804 /* JJLabel.h */,
+				F22FACBE2089D60A00270804 /* JJLabel.m */,
+				F22FACBF2089D60A00270804 /* UIJJLabel.h */,
+				F22FACC02089D60A00270804 /* UIJJLabel.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		F22FACC12089D60A00270804 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				F22FACC22089D60A00270804 /* JJTextField.h */,
+				F22FACC32089D60A00270804 /* JJTextField.m */,
+				F22FACC42089D60A00270804 /* JJTextField_1.h */,
+				F22FACC52089D60A00270804 /* JJTextField_1.m */,
+				F22FACC62089D60A00270804 /* JJTextField_2.h */,
+				F22FACC72089D60A00270804 /* JJTextField_2.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		F22FACC82089D60A00270804 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				F22FACC92089D60A00270804 /* JJTextView.h */,
+				F22FACCA2089D60A00270804 /* JJTextView.m */,
+				F22FACCB2089D60A00270804 /* UIJJTextView.h */,
+				F22FACCC2089D60A00270804 /* UIJJTextView.m */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		F22FACCD2089D60A00270804 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F22FACCE2089D60A00270804 /* JJHomeController.h */,
+				F22FACCF2089D60A00270804 /* JJHomeController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F22FAC762089D59C00270804 /* JJFontFitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22FACA32089D59C00270804 /* Build configuration list for PBXNativeTarget "JJFontFitExample" */;
+			buildPhases = (
+				F22FAC732089D59C00270804 /* Sources */,
+				F22FAC742089D59C00270804 /* Frameworks */,
+				F22FAC752089D59C00270804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJFontFitExample;
+			productName = JJFontFitExample;
+			productReference = F22FAC772089D59C00270804 /* JJFontFitExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F22FAC8E2089D59C00270804 /* JJFontFitExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22FACA62089D59C00270804 /* Build configuration list for PBXNativeTarget "JJFontFitExampleTests" */;
+			buildPhases = (
+				F22FAC8B2089D59C00270804 /* Sources */,
+				F22FAC8C2089D59C00270804 /* Frameworks */,
+				F22FAC8D2089D59C00270804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F22FAC912089D59C00270804 /* PBXTargetDependency */,
+			);
+			name = JJFontFitExampleTests;
+			productName = JJFontFitExampleTests;
+			productReference = F22FAC8F2089D59C00270804 /* JJFontFitExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F22FAC992089D59C00270804 /* JJFontFitExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22FACA92089D59C00270804 /* Build configuration list for PBXNativeTarget "JJFontFitExampleUITests" */;
+			buildPhases = (
+				F22FAC962089D59C00270804 /* Sources */,
+				F22FAC972089D59C00270804 /* Frameworks */,
+				F22FAC982089D59C00270804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F22FAC9C2089D59C00270804 /* PBXTargetDependency */,
+			);
+			name = JJFontFitExampleUITests;
+			productName = JJFontFitExampleUITests;
+			productReference = F22FAC9A2089D59C00270804 /* JJFontFitExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F22FAC6F2089D59C00270804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = JMZiXun;
+				TargetAttributes = {
+					F22FAC762089D59C00270804 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F22FAC8E2089D59C00270804 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F22FAC762089D59C00270804;
+					};
+					F22FAC992089D59C00270804 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F22FAC762089D59C00270804;
+					};
+				};
+			};
+			buildConfigurationList = F22FAC722089D59C00270804 /* Build configuration list for PBXProject "JJFontFitExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F22FAC6E2089D59C00270804;
+			productRefGroup = F22FAC782089D59C00270804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F22FAC762089D59C00270804 /* JJFontFitExample */,
+				F22FAC8E2089D59C00270804 /* JJFontFitExampleTests */,
+				F22FAC992089D59C00270804 /* JJFontFitExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F22FAC752089D59C00270804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22FACDF2089D63500270804 /* Main.storyboard in Resources */,
+				F22FAC872089D59C00270804 /* LaunchScreen.storyboard in Resources */,
+				F22FAC842089D59C00270804 /* Assets.xcassets in Resources */,
+				F22FACE32089D8AF00270804 /* JJFontFit.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22FAC8D2089D59C00270804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22FAC982089D59C00270804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F22FAC732089D59C00270804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22FACAF2089D5EB00270804 /* JJFontFit.m in Sources */,
+				F22FAC7F2089D59C00270804 /* ViewController.m in Sources */,
+				F22FACD02089D60A00270804 /* JJExampleTableViewController.m in Sources */,
+				F22FACD12089D60A00270804 /* _UIJJButton.m in Sources */,
+				F22FAC8A2089D59C00270804 /* main.m in Sources */,
+				F22FACD32089D60A00270804 /* UIJJButton.m in Sources */,
+				F22FACD52089D60A00270804 /* JJLabel.m in Sources */,
+				F22FACDC2089D60A00270804 /* JJHomeController.m in Sources */,
+				F22FACDA2089D60A00270804 /* JJTextView.m in Sources */,
+				F22FACD22089D60A00270804 /* JJButtton.m in Sources */,
+				F22FACD82089D60A00270804 /* JJTextField_1.m in Sources */,
+				F22FAC7C2089D59C00270804 /* AppDelegate.m in Sources */,
+				F22FACDB2089D60A00270804 /* UIJJTextView.m in Sources */,
+				F22FACD72089D60A00270804 /* JJTextField.m in Sources */,
+				F22FACD42089D60A00270804 /* _UIJJLabel.m in Sources */,
+				F22FACD92089D60A00270804 /* JJTextField_2.m in Sources */,
+				F22FACD62089D60A00270804 /* UIJJLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22FAC8B2089D59C00270804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22FAC942089D59C00270804 /* JJFontFitExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22FAC962089D59C00270804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22FAC9F2089D59C00270804 /* JJFontFitExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F22FAC912089D59C00270804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F22FAC762089D59C00270804 /* JJFontFitExample */;
+			targetProxy = F22FAC902089D59C00270804 /* PBXContainerItemProxy */;
+		};
+		F22FAC9C2089D59C00270804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F22FAC762089D59C00270804 /* JJFontFitExample */;
+			targetProxy = F22FAC9B2089D59C00270804 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F22FAC852089D59C00270804 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F22FAC862089D59C00270804 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F22FACA12089D59C00270804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F22FACA22089D59C00270804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F22FACA42089D59C00270804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KTN4GP2J8;
+				INFOPLIST_FILE = JJFontFitExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ym.JJFontFitExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F22FACA52089D59C00270804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KTN4GP2J8;
+				INFOPLIST_FILE = JJFontFitExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ym.JJFontFitExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F22FACA72089D59C00270804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KTN4GP2J8;
+				INFOPLIST_FILE = JJFontFitExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ym.JJFontFitExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJFontFitExample.app/JJFontFitExample";
+			};
+			name = Debug;
+		};
+		F22FACA82089D59C00270804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KTN4GP2J8;
+				INFOPLIST_FILE = JJFontFitExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ym.JJFontFitExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJFontFitExample.app/JJFontFitExample";
+			};
+			name = Release;
+		};
+		F22FACAA2089D59C00270804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KTN4GP2J8;
+				INFOPLIST_FILE = JJFontFitExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ym.JJFontFitExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJFontFitExample;
+			};
+			name = Debug;
+		};
+		F22FACAB2089D59C00270804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KTN4GP2J8;
+				INFOPLIST_FILE = JJFontFitExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ym.JJFontFitExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJFontFitExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F22FAC722089D59C00270804 /* Build configuration list for PBXProject "JJFontFitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22FACA12089D59C00270804 /* Debug */,
+				F22FACA22089D59C00270804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22FACA32089D59C00270804 /* Build configuration list for PBXNativeTarget "JJFontFitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22FACA42089D59C00270804 /* Debug */,
+				F22FACA52089D59C00270804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22FACA62089D59C00270804 /* Build configuration list for PBXNativeTarget "JJFontFitExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22FACA72089D59C00270804 /* Debug */,
+				F22FACA82089D59C00270804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22FACA92089D59C00270804 /* Build configuration list for PBXNativeTarget "JJFontFitExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22FACAA2089D59C00270804 /* Debug */,
+				F22FACAB2089D59C00270804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F22FAC6F2089D59C00270804 /* Project object */;
+}

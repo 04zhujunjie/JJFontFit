@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  JJFontFit
+//  JJFontFitExample
 //
-//  Created by JMZiXun on 2018/4/18.
+//  Created by JMZiXun on 2018/4/20.
 //  Copyright © 2018年 JMZiXun. All rights reserved.
 //
 

@@ -1,18 +1,18 @@
 //
-//  JJFontFitTests.m
-//  JJFontFitTests
+//  JJFontFitExampleTests.m
+//  JJFontFitExampleTests
 //
-//  Created by JMZiXun on 2018/4/18.
+//  Created by JMZiXun on 2018/4/20.
 //  Copyright © 2018年 JMZiXun. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface JJFontFitTests : XCTestCase
+@interface JJFontFitExampleTests : XCTestCase
 
 @end
 
-@implementation JJFontFitTests
+@implementation JJFontFitExampleTests
 
 - (void)setUp {
     [super setUp];

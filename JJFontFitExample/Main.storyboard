@@ -384,7 +384,7 @@
         <scene sceneID="vp6-NO-ISc">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oNa-vi-VQ6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="首页" image="icon_tabbar_tea" selectedImage="icon_tabbar_tea_selected" id="2Cr-zi-4fZ"/>
+                    <tabBarItem key="tabBarItem" title="首页" selectedImage="icon_tabbar_tea_selected" id="2Cr-zi-4fZ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SNI-Ri-neR">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -401,7 +401,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icon_tabbar_tea" width="19" height="15"/>
         <image name="icon_tabbar_tea_selected" width="19" height="15"/>
     </resources>
 </document>
