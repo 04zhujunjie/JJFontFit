@@ -2,7 +2,7 @@
 ![image](https://github.com/04zhujunjie/JJFontFit/blob/master/Screenshot/JJFontFit.gif) 
 ## 支持pod导入
 pod 'JJFontFit', '~> 1.0.0'     
-## 特点：  
+## 特性：  
 1、全自动化，支持自定义字体，不需要手动一个一个适配。     
 2、有两种适配样式: 1）、标准样式：根据屏幕比例自动适配。2）、自定义样式 ：用户可以根据屏幕来设置每个屏幕统一字体。        
 3、支持UILabel，UIButton，UITextField,UITextView类以及自定义的继承类。    
@@ -10,9 +10,12 @@ pod 'JJFontFit', '~> 1.0.0'
 5、关闭某个对象适配，支持手动代码和storyboard两种设置。      
 6、支持不分屏幕尺寸，统一修改字体大小。     
 
-##使用说明
+## 使用说明
 
-1、使用标准样式，调用以下方法，设置标准屏幕的宽（也就是字体不变的屏幕宽）。（默认标准模式，默认的4.7寸屏幕宽）
+将JJFontFit文件夹拖到项目中或者通过pod方式导入到项目中，就默认已经开启文字适配（默认使用的标准样式，默认标准屏幕尺寸4.7），
+如需进行其他设置，需要导入JJFontFit.h头文件。
+
+1、使用标准样式，调用以下方法，设置标准屏幕的宽（也就是字体不变的屏幕宽）   
 ```
 + (void)fontFitWithNormalScreenWidth:(CGFloat)width
 ```
