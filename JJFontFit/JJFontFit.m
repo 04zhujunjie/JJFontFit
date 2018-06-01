@@ -265,7 +265,7 @@ JJ_LOAD(^{
         NSString *selfClassString = NSStringFromClass(self.class);
         if ([selfClassString hasPrefix:@"UI"]||[selfClassString hasPrefix:@"_UI"]) {
             //说明是UILabel类
-            if ([NSStringFromClass(self.class) isEqualToString:@"UILabel"]&&![NSStringFromClass([newSuperview class]) isEqualToString:@"_UINavigationBarContentView"]) {
+            if ([NSStringFromClass(self.class) isEqualToString:@"UILabel"]&&![self jj_isHaveUINavigation:NSStringFromClass([newSuperview class])]) {
 //                NSLog(@"====%@+===%@==",selfClassString,NSStringFromClass([newSuperview class]));
                 [self jj_updateMoveToSuperviewFont];
                 return;
@@ -320,6 +320,15 @@ JJ_LOAD(^{
             return;
         }
     }
+}
+
+- (BOOL)jj_isHaveUINavigation:(NSString *)classString{
+    NSRange range = [classString rangeOfString:@"UINavigation"];
+    //如果有，说明是导航栏上的字体
+    if (range.length) {
+        return YES;
+    }
+    return NO;
 }
 
 - (void)jj_updateMoveToSuperviewFont{

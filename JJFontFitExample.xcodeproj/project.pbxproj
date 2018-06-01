@@ -571,6 +571,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7KTN4GP2J8;
 				INFOPLIST_FILE = JJFontFitExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ym.JJFontFitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -585,6 +586,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7KTN4GP2J8;
 				INFOPLIST_FILE = JJFontFitExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ym.JJFontFitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
