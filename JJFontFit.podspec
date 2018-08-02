@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = 'JJFontFit'
-s.version      = '1.0.0'
+s.version      = '1.0.1'
 s.summary      = '功能齐全，自动化的文字适配库'
 s.homepage     = 'https://github.com/04zhujunjie/JJFontFit'
 s.license      = 'MIT'
