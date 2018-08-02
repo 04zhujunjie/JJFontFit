@@ -84,7 +84,7 @@ typedef NS_ENUM(NSInteger,JJFontFitType){
 }
 + (UIFont *)fontFitWithFont:(UIFont *)font{
     CGFloat size = font.pointSize;
-    return [UIFont fontWithDescriptor:font.fontDescriptor size:size];
+    return [UIFont fontWithDescriptor:font.fontDescriptor size:size*[JJFontFit shareFontFit].jj_rate];
 }
 
 + (void)addHasPrefixUIWithLabelClass:(NSArray<NSString *>*)labelClass buttonClass:(NSArray<NSString *>*)buttonClass{
