@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BBEFAE02112DD03001432FF /* caiyunFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BBEFADF2112DD03001432FF /* caiyunFont.ttf */; };
 		F22FAC7C2089D59C00270804 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FAC7B2089D59C00270804 /* AppDelegate.m */; };
 		F22FAC7F2089D59C00270804 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FAC7E2089D59C00270804 /* ViewController.m */; };
 		F22FAC842089D59C00270804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22FAC832089D59C00270804 /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BBEFADF2112DD03001432FF /* caiyunFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = caiyunFont.ttf; sourceTree = "<group>"; };
 		F22FAC772089D59C00270804 /* JJFontFitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJFontFitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F22FAC7A2089D59C00270804 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F22FAC7B2089D59C00270804 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,7 +95,6 @@
 		F22FACCC2089D60A00270804 /* UIJJTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIJJTextView.m; sourceTree = "<group>"; };
 		F22FACCE2089D60A00270804 /* JJHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJHomeController.h; sourceTree = "<group>"; };
 		F22FACCF2089D60A00270804 /* JJHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJHomeController.m; sourceTree = "<group>"; };
-		F22FACDD2089D61800270804 /* 銳字雲字庫彩雲繁.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "銳字雲字庫彩雲繁.ttf"; sourceTree = "<group>"; };
 		F22FACDE2089D63500270804 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F22FACE22089D8AF00270804 /* JJFontFit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JJFontFit.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -157,8 +158,8 @@
 				F22FAC832089D59C00270804 /* Assets.xcassets */,
 				F22FAC852089D59C00270804 /* LaunchScreen.storyboard */,
 				F22FAC882089D59C00270804 /* Info.plist */,
+				8BBEFADF2112DD03001432FF /* caiyunFont.ttf */,
 				F22FACE22089D8AF00270804 /* JJFontFit.podspec */,
-				F22FACDD2089D61800270804 /* 銳字雲字庫彩雲繁.ttf */,
 				F22FAC892089D59C00270804 /* main.m */,
 			);
 			path = JJFontFitExample;
@@ -369,6 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BBEFAE02112DD03001432FF /* caiyunFont.ttf in Resources */,
 				F22FACDF2089D63500270804 /* Main.storyboard in Resources */,
 				F22FAC872089D59C00270804 /* LaunchScreen.storyboard in Resources */,
 				F22FAC842089D59C00270804 /* Assets.xcassets in Resources */,

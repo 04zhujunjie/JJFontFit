@@ -43,7 +43,7 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
-		<string>銳字雲字庫彩雲繁.ttf</string>
+		<string>caiyunFont.ttf</string>
 	</array>
 </dict>
 </plist>

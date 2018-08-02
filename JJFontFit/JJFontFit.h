@@ -11,6 +11,15 @@
 IB_DESIGNABLE
 @interface JJFontFit : NSObject
 
++ (instancetype)shareFontFit;
+
+/**
+文本自适应宽度，默认值NO，只适用UILabel和UIButton字体
+适配UILable或者UIButton字体时，如果字体过大，可能会导致文字显示不全，这时你需要将jj_adjustsFontSizeToFitWidth设置为YES。
+  作用：1、单行文字时，会自动设置UILabel的adjustsFontSizeToFitWidth属性为YES，使得文字全部显示出来。
+       2、多行文字时，不做适配，保留原来文字大小。
+ */
+@property (nonatomic ,assign) BOOL jj_adjustsFontSizeToFitWidth;
 /**
  仅用于在“标准样式”下测试
 

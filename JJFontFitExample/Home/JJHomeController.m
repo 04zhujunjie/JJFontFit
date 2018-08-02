@@ -16,6 +16,7 @@
 @property (nonatomic ,strong) NSArray *titles;
 @property (nonatomic ,assign) CGFloat testWidth;
 @property (nonatomic ,assign) CGFloat addSize;
+@property (weak, nonatomic) IBOutlet UISwitch *widthSwitch;
 @property (nonatomic ,strong) NSArray *iphoneWidths;
 @end
 
@@ -23,7 +24,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
- 
     /*
      使用说明：
      1、 JJFontFit类一般是放在程序入口AppDelegate中调用。（为了看测试效果，所以有部分设置放在JJHomeController类中设置）
@@ -45,6 +45,10 @@
     self.iphoneWidths = @[@"320",@"375",@"414"];
     [self setupTitleView];
     // Do any additional setup after loading the view.
+}
+- (IBAction)textWidthSwitch:(UISwitch *)sender {
+    
+    [JJFontFit shareFontFit].jj_adjustsFontSizeToFitWidth = sender.on;
 }
 
 - (void)change:(UISegmentedControl *)seg{
@@ -74,6 +78,7 @@
         if (width == [self.iphoneWidths[i] floatValue]) {
             button.selected = YES;
             [button setBackgroundColor:[UIColor blueColor]];
+            [self setupFontFitWithIndex:i];
         }
         button.tag = i+100;
         [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
@@ -123,7 +128,7 @@
             CGFloat iphone55_Width = 414;
             self.testWidth = iphone55_Width;
             //在标准尺寸下文字大小下进行+6
-            self.addSize = 6;
+            self.addSize = 12;
         }
             break;
             

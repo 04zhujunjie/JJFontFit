@@ -45,6 +45,7 @@ typedef NS_ENUM(NSInteger,JJFontFitType){
         fontFit.jj_normalScreenWidth = 375.0;
         fontFit.jj_rate = JJ_SCREEN_Width/fontFit.jj_normalScreenWidth;
         fontFit.jj_addSize = 0;
+        fontFit.jj_adjustsFontSizeToFitWidth = NO;
     });
     return fontFit;
 }
@@ -186,6 +187,7 @@ typedef NS_ENUM(NSInteger,JJFontFitType){
 }
 
 
+
 - (void)setJj_isFontFiting:(BOOL)jj_isFontFiting{
     objc_setAssociatedObject(self, @selector(jj_isFontFiting), @(jj_isFontFiting), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
@@ -251,6 +253,10 @@ JJ_LOAD(^{
 
     [self jj_exchangeOriginalSelector:@selector(willMoveToSuperview:) swizzledSelector:@selector(jj_labelWillMoveToSuperview:)];
      [self jj_exchangeOriginalSelector:@selector(setFont:) swizzledSelector:@selector(jj_setLabelFont:)];
+    [self jj_exchangeOriginalSelector:@selector(setFrame:) swizzledSelector:@selector(jj_setFrame:)];
+     [self jj_exchangeOriginalSelector:@selector(setNumberOfLines:) swizzledSelector:@selector(jj_setNumberOfLines:)];
+    [self jj_exchangeOriginalSelector:@selector(setText:) swizzledSelector:@selector(jj_setText:)];
+    [self jj_exchangeOriginalSelector:@selector(awakeFromNib) swizzledSelector:@selector(jj_awakeFromNib)];
 });
 
 
@@ -336,11 +342,79 @@ JJ_LOAD(^{
     [self jj_setupFontSize];
 }
 
-
-
 - (void)jj_setLabelFont:(UIFont *)font{
     [self jj_setLabelFont:font];
     [self jj_setupFont];
+}
+
+- (void)jj_setFrame:(CGRect)frame{
+    
+    [self jj_setFrame:frame];
+    [self setupAdjustsFontSizeToFitWidth];
+}
+- (void)jj_setNumberOfLines:(NSInteger)lines{
+    [self jj_setNumberOfLines:lines];
+     [self setupAdjustsFontSizeToFitWidth];
+}
+- (void)jj_setText:(NSString *)text{
+    [self jj_setText:text];
+    [self setupAdjustsFontSizeToFitWidth];
+}
+
+- (void)jj_awakeFromNib{
+    [self jj_awakeFromNib];
+    [self setupAdjustsFontSizeToFitWidth];
+}
+
+- (void)setupAdjustsFontSizeToFitWidth{
+    if ([self jj_isSetupAdjustsFontSizeToFitWidth]) {
+        if (self.numberOfLines == 1) {
+            self.adjustsFontSizeToFitWidth = [self jj_isSingleLineAdjustsFontSizeToFitWidth];
+            
+        }else{
+            //多行时，如果适配后的高度大于文本高度，就放弃适配
+            [self jj_MultiLineOriginalFont];
+        }
+   }
+}
+
+/**
+ 判断是否做文字自适应宽度
+ */
+- (BOOL)jj_isSetupAdjustsFontSizeToFitWidth{
+    if (![JJFontFit shareFontFit].jj_adjustsFontSizeToFitWidth) {
+        return NO;
+    }
+    if (self.frame.size.width&&!self.jj_isFontFit&&self.jj_isMoveToSuperview&&self.text.length&&self.jj_originalFont.pointSize!=self.font.pointSize&&self.jj_originalFont.pointSize) {
+       
+        if ([self jj_isCloseFontFit]) {
+            return NO;
+        }
+        return YES;
+    }
+    return NO;
+}
+
+- (BOOL)jj_isSingleLineAdjustsFontSizeToFitWidth{
+    CGRect rect = [self.text boundingRectWithSize:CGSizeMake(CGFLOAT_MAX, 22) options:NSStringDrawingTruncatesLastVisibleLine attributes:@{NSFontAttributeName:self.font} context:nil];
+    //单行时，说明适配后的字体长度已经超过文本自身的宽度，采用文本自适应宽度
+    if (rect.size.width>CGRectGetWidth(self.frame)-2) {
+        return YES;
+    }else{
+        return NO;
+    }
+}
+
+- (void)jj_MultiLineOriginalFont{
+    CGRect rect = [self.text boundingRectWithSize:CGSizeMake(CGRectGetWidth(self.frame), CGFLOAT_MAX) options:
+                   NSStringDrawingUsesLineFragmentOrigin |
+                   NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName:self.font} context:nil];
+    if (rect.size.height>CGRectGetHeight(self.frame)) {
+        self.jj_isFontFit = YES;
+        //使用适配前的字体
+        [self setValue:self.jj_originalFont forKey:@"font"];
+        self.jj_isFontFit = NO;
+    }
 }
 
 - (void)setIsNotFontFit:(BOOL)isNotFontFit{
@@ -380,7 +454,6 @@ JJ_LOAD(^{
     [self jj_setTextViewFont:font];
     [self jj_setupFont];
 }
-
 - (void)setIsNotFontFit:(BOOL)isNotFontFit{
     self.jj_isFontFit = isNotFontFit;
     objc_setAssociatedObject(self, @selector(isNotFontFit), @(isNotFontFit), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
@@ -414,7 +487,6 @@ JJ_LOAD(^{
     if (isNotFontFit&&self.jj_originalFont) {
         self.font = self.jj_originalFont;
     }
-    
 }
 - (BOOL)isNotFontFit{
     return  [objc_getAssociatedObject(self, _cmd) boolValue];
