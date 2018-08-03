@@ -1,7 +1,7 @@
 # JJFontFit 
 ![image](https://github.com/04zhujunjie/JJFontFit/blob/master/Screenshot/JJFontFit.gif) 
 ## 支持pod导入
-pod 'JJFontFit', '~> 1.0.0'     
+pod 'JJFontFit', '~> 1.0.1'     
 ## 特性：  
 1、全自动化，支持自定义字体，不需要手动一个一个适配。     
 2、有两种适配样式: 1）、标准样式：根据屏幕比例自动适配。2）、自定义样式 ：用户可以根据屏幕来设置每个屏幕统一字体。        
@@ -36,15 +36,19 @@ pod 'JJFontFit', '~> 1.0.0'
 ```
 self.label.isNotFontFit = YES;
 ```
-6、在storyboard或xib上关闭某个对象文字适配，将Is Not Font Fit设置为On  
+6、如果适配后，因为文字字体过大，导致文本显示不全，将jj_adjustsFontSizeToFitWidth属性设置为YES     
+```
+[JJFontFit shareFontFit].jj_adjustsFontSizeToFitWidth = YES;
+```
+7、在storyboard或xib上关闭某个对象文字适配，将Is Not Font Fit设置为On  
 
 ![image](https://github.com/04zhujunjie/JJFontFit/blob/master/Screenshot/storyboard_screen.png) 
 
-7、不分屏幕尺寸，统一修改字体大小 ，直接调用以下方法 
+8、不分屏幕尺寸，统一修改字体大小 ，直接调用以下方法 
 ```
 + (void)fontFitWithAddSize:(CGFloat)addSize;
 ```
-8、JJFontFit设置，一般是放在程序入口AppDelegate设置，如下：  
+9、JJFontFit设置，一般是放在程序入口AppDelegate设置，如下：  
 ```
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
