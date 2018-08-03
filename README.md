@@ -92,6 +92,9 @@ self.label.isNotFontFit = YES;
 }
 
 ```
+##版本更新说明        
+版本1.0.1：        
+新增jj_adjustsFontSizeToFitWidth属性，用来解决在适配过程中，因为文字字体过大，导致文字显示不全
 
 ## 其他
 QQ交流群：680365301     
